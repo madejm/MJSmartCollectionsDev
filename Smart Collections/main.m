@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MJSmartCollections.h"
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+    @autoreleasepool
+    {
+        id array = MAnull(@"Fuck", @"the", @"police", nil, @"comming", @"strignt", nil, @"from", @"the", @"underground");
+        
+        NSLog(@"%@", array);
     }
     return 0;
 }

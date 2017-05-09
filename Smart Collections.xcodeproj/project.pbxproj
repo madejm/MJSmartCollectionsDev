@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B2693991EC2733D009F3496 /* MJNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2693981EC2733D009F3496 /* MJNull.m */; };
 		7BDB991F1EBCF4730019949A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDB991E1EBCF4730019949A /* main.m */; };
+		7BDB99271EBCF4A80019949A /* MJSmartArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDB99261EBCF4A80019949A /* MJSmartArray.m */; };
+		7BDB992C1EBCF6210019949A /* __MJStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDB992B1EBCF6210019949A /* __MJStop.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7B2693971EC2733D009F3496 /* MJNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJNull.h; sourceTree = "<group>"; };
+		7B2693981EC2733D009F3496 /* MJNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJNull.m; sourceTree = "<group>"; };
 		7BDB991B1EBCF4730019949A /* Smart Collections */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Smart Collections"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BDB991E1EBCF4730019949A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BDB99251EBCF4A80019949A /* MJSmartArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJSmartArray.h; sourceTree = "<group>"; };
+		7BDB99261EBCF4A80019949A /* MJSmartArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJSmartArray.m; sourceTree = "<group>"; };
+		7BDB99281EBCF5D20019949A /* MJSmartCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJSmartCollections.h; sourceTree = "<group>"; };
+		7BDB992A1EBCF6210019949A /* __MJStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = __MJStop.h; sourceTree = "<group>"; };
+		7BDB992B1EBCF6210019949A /* __MJStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = __MJStop.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				7BDB991E1EBCF4730019949A /* main.m */,
+				7BDB99281EBCF5D20019949A /* MJSmartCollections.h */,
+				7BDB99251EBCF4A80019949A /* MJSmartArray.h */,
+				7BDB99261EBCF4A80019949A /* MJSmartArray.m */,
+				7B2693971EC2733D009F3496 /* MJNull.h */,
+				7B2693981EC2733D009F3496 /* MJNull.m */,
+				7BDB992A1EBCF6210019949A /* __MJStop.h */,
+				7BDB992B1EBCF6210019949A /* __MJStop.m */,
 			);
 			path = "Smart Collections";
 			sourceTree = "<group>";
@@ -118,7 +135,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BDB99271EBCF4A80019949A /* MJSmartArray.m in Sources */,
+				7B2693991EC2733D009F3496 /* MJNull.m in Sources */,
 				7BDB991F1EBCF4730019949A /* main.m in Sources */,
+				7BDB992C1EBCF6210019949A /* __MJStop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +255,7 @@
 				7BDB99241EBCF4730019949A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
